@@ -1,1 +1,11 @@
-ada
+- **Streaming Web Project**
+- Techniques used:
+  - HTML
+  - CSS
+ 
+- **Fighting Game Web Project**
+- Techniques used:
+  - HTML
+  - CSS
+  - Javascript
+  - JQuery
