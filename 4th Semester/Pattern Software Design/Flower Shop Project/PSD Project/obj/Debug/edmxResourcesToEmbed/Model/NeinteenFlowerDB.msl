@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NeinteenFlowerDBModelStoreContainer" CdmEntityContainer="NeinteenFlowerDBEntities">
+    <EntitySetMapping Name="MsEmployees">
+      <EntityTypeMapping TypeName="NeinteenFlowerDBModel.MsEmployee">
+        <MappingFragment StoreEntitySet="MsEmployee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeDOB" ColumnName="EmployeeDOB" />
+          <ScalarProperty Name="EmployeeGender" ColumnName="EmployeeGender" />
+          <ScalarProperty Name="EmployeeAddress" ColumnName="EmployeeAddress" />
+          <ScalarProperty Name="EmployeePhone" ColumnName="EmployeePhone" />
+          <ScalarProperty Name="EmployeeEmail" ColumnName="EmployeeEmail" />
+          <ScalarProperty Name="EmployeeSalary" ColumnName="EmployeeSalary" />
+          <ScalarProperty Name="EmployeePassword" ColumnName="EmployeePassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsFlowers">
+      <EntityTypeMapping TypeName="NeinteenFlowerDBModel.MsFlower">
+        <MappingFragment StoreEntitySet="MsFlower">
+          <ScalarProperty Name="FlowerID" ColumnName="FlowerID" />
+          <ScalarProperty Name="FlowerName" ColumnName="FlowerName" />
+          <ScalarProperty Name="FlowerTypeID" ColumnName="FlowerTypeID" />
+          <ScalarProperty Name="FlowerDescription" ColumnName="FlowerDescription" />
+          <ScalarProperty Name="FlowerPrice" ColumnName="FlowerPrice" />
+          <ScalarProperty Name="FlowerImage" ColumnName="FlowerImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsFlowerTypes">
+      <EntityTypeMapping TypeName="NeinteenFlowerDBModel.MsFlowerType">
+        <MappingFragment StoreEntitySet="MsFlowerType">
+          <ScalarProperty Name="FlowerTypeID" ColumnName="FlowerTypeID" />
+          <ScalarProperty Name="FlowerTypeName" ColumnName="FlowerTypeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MsMembers">
+      <EntityTypeMapping TypeName="NeinteenFlowerDBModel.MsMember">
+        <MappingFragment StoreEntitySet="MsMember">
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="MemberName" ColumnName="MemberName" />
+          <ScalarProperty Name="MemberDOB" ColumnName="MemberDOB" />
+          <ScalarProperty Name="MemberGender" ColumnName="MemberGender" />
+          <ScalarProperty Name="MemberAddress" ColumnName="MemberAddress" />
+          <ScalarProperty Name="MemberPhone" ColumnName="MemberPhone" />
+          <ScalarProperty Name="MemberEmail" ColumnName="MemberEmail" />
+          <ScalarProperty Name="MemberPassword" ColumnName="MemberPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrDetails">
+      <EntityTypeMapping TypeName="NeinteenFlowerDBModel.TrDetail">
+        <MappingFragment StoreEntitySet="TrDetail">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="FlowerID" ColumnName="FlowerID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrHeaders">
+      <EntityTypeMapping TypeName="NeinteenFlowerDBModel.TrHeader">
+        <MappingFragment StoreEntitySet="TrHeader">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="MemberID" ColumnName="MemberID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="TransactionDate" ColumnName="TransactionDate" />
+          <ScalarProperty Name="DiscountPercent" ColumnName="DiscountPercent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
