@@ -5,5 +5,6 @@
   - Hash Table
   - Binary Tree
   - Binary Search Tree 
+  - AVL Tree
 - Language:
   - C & C++
