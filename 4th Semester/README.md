@@ -1,0 +1,13 @@
+- **Human Computer Interaction**
+- Designing an attractive and interactive website through Visual Studio Code
+- Techniques used:
+  - HTML
+  - CSS
+  - Javascript
+  - JQuery
+
+- **Pattern Software Design**
+- Making a backend of website through .NET Framework by Visual Studio 2019
+- Implementing Domain Driven Design (DDD) by having Factory, Repository, Handler, Controller, View
+- Language:
+  - C#
