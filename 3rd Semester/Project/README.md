@@ -1,0 +1,3 @@
+- Database Project in a group
+- Building a database system of catering service from its ERD, DML, and DDL
+- **Question can be found in O212-ISYS6169-AT01-00.pdf**
