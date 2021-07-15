@@ -1,3 +1,0 @@
-- Simulation of Red Black Tree and Minimum Spanning Tree
-- Case code using AVL Tree
-- **Question can be found in COMP6048_Data Structures_REGULER & GLOBAL_UAS (ODD NIM).pdf**
