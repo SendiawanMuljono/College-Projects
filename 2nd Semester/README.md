@@ -9,3 +9,8 @@
   - AVL Tree
 - Language:
   - C & C++
+
+- **Object Oriented Programming**
+- Implementing Object Oriented to solve cases (no more procedural)
+- Language:
+  - Java
