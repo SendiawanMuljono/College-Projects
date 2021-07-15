@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    border-radius: 60px;
+    margin-top: 30px;
+    background-color: lightslategray;
+}
+
+input{
+    width: 230px;
+}
+
+select{
+    width: 235px;
+}
+
+div{
+    display: flex;
+}
+
+body{
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
