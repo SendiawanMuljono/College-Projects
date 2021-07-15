@@ -1,5 +1,5 @@
 - **Data Structure**
-- Implementing Data Structure to solve cases
+- Implementing Data Structure in code and simulation to solve cases
 - Data Structure learnings such as:
   - Linked List (Single & Double)
   - Queue & Stack
