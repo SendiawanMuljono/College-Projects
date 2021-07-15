@@ -1,0 +1,10 @@
+- **Database System**
+- Using Microsoft SQL Server Management Studio (SSMS) to build SQL Queries
+- Consist of:
+  - Create, Read, Update, Delete (CRUD)
+  - Aggregate Functions
+  - Grouping
+  - Alias Subquery
+  - Stored Procedure
+  - Trigger
+  - Function
