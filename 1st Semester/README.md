@@ -1,4 +1,4 @@
 - **Algorithm and Programming**
 - Competitive programming of solving many kind of cases
 - Language:
-- C & C++
+  - C & C++
