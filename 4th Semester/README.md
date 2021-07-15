@@ -5,7 +5,7 @@
   - CSS
   - Javascript
   - JQuery
-
+<br />
 - **Pattern Software Design**
 - Making a backend of website through .NET Framework by Visual Studio 2019
 - Implementing Domain Driven Design (DDD) by having Factory, Repository, Handler, Controller, View
