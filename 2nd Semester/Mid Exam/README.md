@@ -1,2 +1,0 @@
-- Complete 4 snippet codes and make a program for case
-- **Question can be found in MidExam.pdf**
