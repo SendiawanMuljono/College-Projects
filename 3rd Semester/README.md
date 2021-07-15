@@ -8,3 +8,4 @@
   - Stored Procedure
   - Trigger
   - Function
+  - Making Entity Relationship Diagram (ERD)
