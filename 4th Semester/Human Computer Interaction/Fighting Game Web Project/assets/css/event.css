@@ -1,0 +1,47 @@
+.events img{
+    width: 55vw;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+}
+
+.events h1{
+    text-align: center;
+}
+
+.events p, h2{
+    width: 55vw;
+}
+
+.events h2{
+    text-align: center;
+}
+
+.event-1, .event-2, .event-3, .event-4, .event-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 60vw;
+    border: solid grey 1px;
+}
+
+@media only screen and (max-width: 800px){
+    .event-1, .event-2, .event-3, .event-4, .event-5{
+        width: 55vw;
+    }
+
+    .events img, p, h2{
+        width: 50vw;
+    }
+
+    .header-logo{
+		width: 10px;
+	}
+
+    .footer-sosmed p{
+        padding-left: 20px;
+    }
+}

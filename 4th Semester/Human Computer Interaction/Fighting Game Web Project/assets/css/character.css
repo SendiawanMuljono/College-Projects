@@ -1,0 +1,254 @@
+#content{
+    padding: 50px;
+}
+
+h1{
+	text-align: center;
+}
+
+.desc{
+	text-align: center;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.desc a {
+    text-decoration: none;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.grid {
+	display: block;
+	float: left;
+    margin: 1% 0 1% 1.6%;
+    border: 1px solid black;
+    margin-right: 2%;
+}
+
+
+.images {
+	width: fit-content;
+	padding: 1.5%;
+	text-align: center;
+	position: relative;
+}
+
+.images img {
+	width: 300px;
+    height: 400px;
+}
+
+
+.images p {
+	font-size: 15pt;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .desc{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .desc{
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+}
+
+@media only screen and (max-width: 950px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .desc{
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+
+}
+@media only screen and (max-width: 890px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+        margin-bottom: 10px;
+        margin-top: 10px;
+     }
+
+
+}
+@media only screen and (max-width: 600px) {
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+
+    .header-logo{
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+	.section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+	.section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+
+    .section{
+        display: flex;
+		flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .desc{
+       margin-bottom: 10px;
+       margin-top: 10px;
+    }
+}

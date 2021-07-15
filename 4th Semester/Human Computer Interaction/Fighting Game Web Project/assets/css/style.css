@@ -1,0 +1,302 @@
+body{
+	margin: 0px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+li{
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.clear {
+    clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+/*header*/
+#header{
+	display: flex;
+    justify-content: space-between;
+	background-color: #1c6dc9;
+}
+
+.header-menu{
+	display: flex;
+    align-items: center;
+}
+
+.header-logo {
+	margin-left: 40px;
+}
+
+.header-logo a img {
+	width: 150px;
+	height: 150px;
+}
+
+/*End header*/
+
+
+/*content*/
+
+#content{
+    min-height: 350px;
+    background-color: #a1cdff;
+}
+/*End content*/
+
+
+/*footer*/
+#footer{
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	background-color: #08315f;
+	padding: 50px;
+}
+
+.footer-sosmed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+	margin-right: 20px;
+}
+
+.footer-sosmed p {
+	margin-right: 10px;
+}
+.footer-sosmed a img {
+    margin: 3px;
+	width: 50px;
+	height: 50px;
+}
+
+.footer-text {
+    margin-left: 20px;
+    color: white;
+    font-size: larger;
+}
+
+.footer-contact {
+	font-size: 23pt;
+	margin-bottom: -10px;
+}
+
+/*End footer*/
+
+
+/*Navigation*/
+ul {
+    list-style: none;
+    font-weight: bold;
+ }
+
+.header-menu {
+	float: left;
+}
+
+.header-menu li {
+	float: left;
+}
+
+.header-menu li a {
+	font-size: 25pt;
+	color: white;
+	display:block;
+    padding:16px 50px;
+	font-family: 'Times New Roman', Times, serif ;
+	margin-right: 50px;
+}
+
+.header-menu li a:hover{
+    background:#a1cdff;
+}
+
+.header-menu li.dropdown a.dropdown-active{
+	background:#a1cdff;
+}
+
+.dropdown-content a.active{
+    background:blue;
+}
+
+/*End Navigation*/
+
+/*drop down*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #08315f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*End drop down*/
+
+
+/*Responsive*/
+@media only screen and (max-width: 950px) {
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 890px) {
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+@media only screen and (max-width: 750px) {
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+
+}
+@media only screen and (max-width: 600px) {
+
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+ 
+}
+
+@media only screen and (max-width: 550px) {
+
+    #header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+    #header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+@media only screen and (max-width: 450px) {
+
+	#header{
+		height:100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+
+    #header{
+		height:100%;
+		width: 100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 330px) {
+
+    #header{
+		height:100%;
+		width: 100%;
+    }
+
+	#footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
+/*end of responsive */

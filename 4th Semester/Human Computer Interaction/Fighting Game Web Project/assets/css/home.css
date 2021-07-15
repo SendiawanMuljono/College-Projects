@@ -1,0 +1,149 @@
+.welcomeMsg{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 20px;
+    width: 510px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 40px;
+}
+
+.containerFeature{
+    display: flex;
+}
+
+.slideFeature{
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.slideFeature img.on{
+    display: inline-block;
+}
+
+.slideFeature img{
+    display: none;
+    width: 420px;
+    height: 230px;
+}
+
+.fLeft, .fRight{
+    width: 50px;
+    height: 75px;
+    float: left;
+    position: relative;
+    opacity: 75%;
+    margin: 90px -20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.eventHighlight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.highlightContainer{
+    display: flex;
+}
+
+.highlightSlider{
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.highlightSlide{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.hImage{
+    float: left;
+    list-style-type: none;
+    width: 800px;
+    height: 450px;
+}
+
+@media only screen and (max-width: 800px){
+    .highlightSlider{
+        width: 600px;
+        height: 250px;
+    }
+
+    .hImage{
+        width: 600px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features .containerFeature{
+        margin-top: 30px;
+    }
+
+    .fLeft, .fRight{
+        width: 25px;
+        height: 50px;
+        margin: 70px -10px;
+    }
+
+    .slideFeature img{
+        width: 370px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .welcomeMsg{
+        width: auto;
+    }
+
+    .slideFeature img{
+        width: 250px;
+    }
+
+    .highlightSlider{
+        width: 400px;
+    }
+
+    .hImage{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .welcomeMsg{
+        width: 60vw;
+    }
+
+    .slideFeature img{
+        width: 200px;
+    }
+
+    .header-logo{
+		width: 10px;
+	}
+
+    .highlightSlider{
+        width: 300px;
+    }
+}

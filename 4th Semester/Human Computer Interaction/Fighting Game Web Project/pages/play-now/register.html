@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/register.css">
+    <title>Play Now</title>
+
+    <!--JS-->
+    <script type="text/javascript" src="../../assets/js/validation-register.js"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="header-logo">
+            <a href="../home/home.html">
+                <img src="../../assets/images/logo.png" alt="">
+            </a>
+        </div>
+
+        <div class="header-menu">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">MENU</a>
+                        <div class="dropdown-content">
+                            <a href="../home/home.html">Home</a>
+                            <a href="../screenshots/screenshot.html">Screenshots</a>
+                            <a href="../events/event.html">Events</a>
+                            <a href="../characters/character.html">Characters</a>
+                            <a href="#" class="active">Play Now</a>
+                        </div>
+                </li>
+                <div class="clear"></div>
+             </ul>
+        </div>
+     </div>
+     
+    <div id="content">
+        <div class="register-form">
+            <h1>Register</h1>
+            <form>
+                <div>
+                    <span><label>Name: </label></span>
+                    <span><input id="name" type="text" class="textbox" placeholder="Input your name . . ."></span>
+                </div>
+                <div>
+                     <span><label>Email: </label></span>
+                     <span><input id="email" type="email" class="textbox" placeholder="Input your email . . ."></span>
+                </div>
+                <div>
+                    <span><label>Password: </label></span>
+                    <span><input id="password" type="password" class="textbox" placeholder="Input your password . . ."></span>
+               </div>
+               <div>
+                    <span><label>Confirm Password: </label></span>
+                    <span><input id="confirm-password" type="password" class="textbox" placeholder="Confirm your password"></span>
+                </div>
+                <div>
+                     <span><label>Gender</label></span>
+                     <span>
+                         <input type="radio" name="gender" class="textbox" value="Male" id="radioMale">Male
+                         <input type="radio" name="gender" class="textbox" value="Female" id="radioFemale">Female
+                     </span>
+                </div>
+                <div>
+                    <span>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="term-and-condition" id="term-and-condition">
+                            Agree with our <a href="#" class="button">term and condition</a>
+                            <span class="checkmark"></span>
+                        </label>
+                    </span>
+               </div>
+                <div>
+                      <input onclick="register()" type="button" value="Register" class="buttonSave">
+                 </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        
+        <div class="footer-text">
+            <p class="footer-contact">
+                <strong>Contact: </strong> frawlsalla@gmail.com
+            </p>
+            <p class="footer-copyright">
+                &copy 2021 Blue Mammoth Games. All Rights Reserved.
+            </p>
+        </div>
+    
+        <div class="footer-sosmed">
+            <p>Follow us: </p>
+
+            <a href="https://www.instagram.com">
+                <img src="../../assets/images/ig.png" alt="">
+            </a>
+
+            <a href="https://www.facebook.com">
+                <img src="../../assets/images/fb.png" alt="">
+            </a>
+
+            <a href="https://www.twitter.com">
+                <img src="../../assets/images/twitter.png" alt="">
+            </a>
+        </div>
+    </div>    
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+.register-form{
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.register-form form{
+    width: 100%;
+    margin: 0 auto;
+}
+
+form div{
+    padding: 5px 0;
+}
+
+.register-form span {
+    display: block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-form form input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+  }
+
+.custom-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+  }
+  
+  .custom-checkbox input[type=checkbox] {
+    position: absolute;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 15px;
+    border-radius: 2px;
+    border: solid;
+    border-color:  #08315f;
+  }
+  
+  .custom-checkbox input[type=checkbox]:checked ~ .checkmark {
+    background-color: #08315f;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .custom-checkbox input[type=checkbox]:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .custom-checkbox .checkmark:after {
+    left: 4px;
+    top: -1px;
+    width: 4px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .register-form form input[type=button]{
+    background-color:#08315f;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 1px 2px;
+    cursor: pointer;
+    padding:10px 20px;
+    text-shadow:0px 1px 1px rgba(94, 94, 94, 0.9);
+
+  }
+
+  .register-form input[type="button"]:hover{
+    text-shadow: 0px 0px 1px #000;
+    background:#292929;
+}
+
+@media only screen and (max-width: 800px){
+  .header-logo{
+    width: 10px;
+  }
+}
