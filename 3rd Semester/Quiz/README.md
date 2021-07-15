@@ -1,0 +1,2 @@
+- Make SQL Queries to show the desired answer by importing DJewelryShop.bak
+- **Question can be found in O213-ISYS6169-DJ01-01.pdf**
